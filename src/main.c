@@ -69,7 +69,7 @@ void main(void)
     {
         printk( "Connecting!\n" );
         s = zn_open(config);
-        printk( "Connected" );
+        printk( "Connected\n" );
         if (s == 0)
         {
             printk("Unable to open session!\n");
